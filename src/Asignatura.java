@@ -19,5 +19,4 @@ public class Asignatura {
     public String getNombre() {
         return nombre;
     }
-
 }
