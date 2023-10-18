@@ -1,8 +1,14 @@
-
+/**
+ * Clase que representa una asignatura
+ */
 public class Asignatura {
     private String nombre;
     private int credito;
-
+    /**
+     * Constructor de la clase asignatura
+     * @param nombre nombre de la asignatura
+     * @param credito creditos que vale un asigntura
+     */
     Asignatura(String nombre, int credito){
         this.nombre = nombre;
         this.credito = credito;
